@@ -8,7 +8,7 @@ public class Calculate {
             if (money >= threshold) {
                 System.out.println("месец " + i + " денег " + money + " -Буду отдыхать");
                 money = money - exp;
-                money = money - (8_000);
+                money = money - (8_000);//траты на отдых
                 count++;
             } else {
                 System.out.println("месец " + i + " Денег " + money + " -Работаем");
